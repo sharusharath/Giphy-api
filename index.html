@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title></title>
+	<!------------------------- CSS --------------------->
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">	
+	<!-------------------- JS -------------------------->
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!----------------------------header----------------------->	
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6 logo">
+					<img src="images/logo.png">
+				</div>
+				<div class="col-sm-6">
+					<ul class="icons">
+						<li><a href=""><i class="fa fa-search fa-2x" aria-hidden="true"></i></a></li>
+						<li><a href=""><img src="images/messenger1.png" class="img-fluid d-block"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+<!----------------------------header----------------------->
+
+<!-------------------------nav--------------------------------->
+<section class="nav">
+	<div class="container">
+		<div class="nav-icons">
+			<ul>
+				<li><a href=""><i class="fa fa-home fa-3x" aria-hidden="true"></i></a></li>
+				<li><a href=""><i class="fa fa-television fa-3x" aria-hidden="true"></i></a></li>
+				<li><a href=""><i class="fa fa-user fa-3x" aria-hidden="true"></i></a></li>
+				<li><a href=""><i class="fa fa-bell-o fa-3x" aria-hidden="true"></i></a></li>
+				<li><a href=""><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</section>	
+<!-------------------------nav--------------------------------->
+
+<!-----------------------------profile-------------------------->
+<section class="profile">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="profile-img">
+					<img src="images/profile-picture.jpg" class="img-fluid d-block mx-auto">
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div class="create-post">
+					<button type="button" class="btn" data-toggle="modal" data-target="#myModal">Write something here...	</button>
+
+						 <div class="modal" id="myModal">
+						    <div class="modal-dialog modal-lg">
+						      <div class="modal-content">
+						      
+						       
+						        <div class="modal-header">
+						          <h4 class="modal-title">
+						          	<p><i class="fa fa-pencil" aria-hidden="true"></i> Compose Post</p>
+						          	<p><i class="fa fa-picture-o" aria-hidden="true"></i>Photo/Video Album</p>
+						          	<p><i class="fa fa-video-camera" aria-hidden="true"></i>Live Video</p>
+						          </h4>
+						        </div>
+						        
+						       
+						        <div class="modal-body">
+							         <div class="text-head">
+							         	<img src="images/profile-picture.jpg">
+							         	<div class="form-group">
+      										<input type="text" class="form-control" id="usr" name="" placeholder="Enter the text">
+							         	</div>
+							         </div>
+							         <div class="colors">
+							         	<div class="arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+							         	<div class="color1"></div>
+							         	<div class="color2"></div>
+							         	<div class="color3"></div>
+							         	<div class="color4"></div>
+							         	<div class="color5"></div>
+							         	<div class="color6"></div>
+							         	<div class="color1"></div>
+							         	<div class="color2"></div>
+							         	<div class="color3"></div>
+							         	<div class="color4"></div>
+							         	<div class="color5"></div>
+							         	<div class="color6"></div>
+							         	<div class="color1"></div>
+							         	<div class="color2"></div>
+							         	<div class="color3"></div>
+							         	<div class="color4"></div>
+							         	<div class="color5"></div>
+							         	<div class="color6"></div>
+							         </div>
+							         <div class="row tabs">
+							         	<div class="col-sm-3">
+							         		<a href=""><i class="fa fa-tag" aria-hidden="true"></i>Tag Freinds</a>
+							         	</div>
+							         	<div class="col-sm-3">
+							         		<a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Check In</a>
+							         	</div>
+							         	<div class="col-sm-6"></div>
+							         </div>
+							         <div class="row tabs">
+							         	<div class="col-sm-3">
+							         		    <textarea class="form-control ip-txtarea"
+												id="exampleFormControlTextarea1" rows="1" placeholder="GIF"></textarea>
+							         	</div>
+							         	<div class="col-sm-3">
+							         		<a href=""><i class="fa fa-calendar" aria-hidden="true"></i>Tag Event</a>
+							         	</div>
+							         	<div class="col-sm-6"></div>
+							         </div>
+							         <div class="footer">
+							         	<a href="" class="lock"><i class="fa fa-lock" aria-hidden="true"></i>Only Me</a>
+							         	<a href="" class="post">Post</a>
+							         </div>
+						        </div>
+						        
+						      </div>
+						    </div>
+						  </div>
+					</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="img">
+					<i class="fa fa-picture-o fa-3x" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-----------------------------profile-------------------------->
+
+<!-------------------------------story--------------------------->
+<section class="story">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="story-profile">
+					<img src="images/profile-picture.jpg" class="img-fluid d-block mx-auto">
+					<h5>Create your Story</h5>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="story-profile1">
+					<!-- <img src="images/story_img1.jpg" class="img-fluid d-block mx-auto"> -->
+					<h5>Cricspirit</h5>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="story-profile2">
+					<h5>Domino's pizza India</h5>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="story-profile3">
+					<h5>Gaana...Enjoy Unlimited Music!!!</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!------------------------------story----------------------------->
+
+<!-------------------------------------feed--------------------------->
+<section class="feed">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-sm-12">
+				<div class="feed-post-head">
+					<img src="images/profile-picture.jpg" class="img-fluid d-block">
+					<h5><b>Jack White</b><br>8 Jan at 21:30</h5>
+				</div>
+				<p><b>Change the world by being yourself...!!!</b></p>
+				<img src="images/feed_img1.jpg" class="img-fluid d-block" id="feed_img">
+			</div>
+		</div><!--row--->
+		<div class="row mb-5">
+			<div class="col-sm-12">
+				<div class="feed-post-head">
+					<img src="images/profile-picture.jpg" class="img-fluid d-block">
+					<h5><b>Jack White</b><br>8 Jan at 21:30</h5>
+				</div>
+				<p><b>Change the world by being yourself...!!!</b></p>
+				<img src="images/feed_img1.jpg" class="img-fluid d-block" id="feed_img">
+			</div>
+		</div><!--row--->
+		<div class="row mb-5">
+			<div class="col-sm-12">
+				<div class="feed-post-head">
+					<img src="images/profile-picture.jpg" class="img-fluid d-block">
+					<h5><b>Jack White</b><br>8 Jan at 21:30</h5>
+				</div>
+				<p><b>Change the world by being yourself...!!!</b></p>
+				<img src="images/feed_img1.jpg" class="img-fluid d-block" id="feed_img">
+			</div>
+		</div><!--row--->
+	</div>
+</section>	
+<!-------------------------------------feed--------------------------->
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+    let API_KEY = "1A7KJbOPG8oJN9ssXF43CIFqDkGlZ79k";
+    function init(){
+        let url ="https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&limit=1&q=";
+        let str = document.getElementById("ip-txtarea").value.trim();
+        url = url.concat(str);
+         let fetchRes = fetch(url);
+        fetchRes.then(res =>
+            res.json()).then(d => {
+                console.log(d)
+            })
+    }
+</script>
