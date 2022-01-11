@@ -260,3 +260,47 @@ textarea{
 .feed p{
 	font-size: 20px;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .nav-icons li{
+    margin-right: 7%;
+  }
+  .icons{
+    margin-top: 0!important;
+    float: initial!important;
+    text-align: center;
+  }
+  .profile-img img{
+    margin-bottom: 20px;
+  }
+  .story-profile{
+    height: auto;
+    margin: 20px;
+  }
+  .story-profile1{
+    height: auto;
+    margin: 20px;
+  }
+  .story-profile2{
+    height: auto;
+    margin: 20px;
+  }
+  .story-profile3{
+    height: auto;
+    margin: 20px;
+  }
+  .modal-title{
+    display: block;
+  }
+  .form-control{
+    width: initial!important;
+    margin: 10px;
+  }
+  .tabs-a{
+    padding-bottom: 15px;
+  }
+  .img{
+    text-align: center;
+  }
+
+}
